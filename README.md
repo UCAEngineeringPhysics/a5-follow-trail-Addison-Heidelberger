@@ -20,6 +20,8 @@ You can use following definitions in your equation:
 - Encoder's counts per revolution: $CPR$
 
 > Write down linear motion equation below. 👇
+>
+$C = \frac{d} {2 \pi r} * i * CPR$
 
 > [!TIP]
 > If other quantities than the listed ones are needed.
@@ -39,6 +41,10 @@ You can use following definitions in your equation:
 - Encoder's counts per revolution: $CPR$
 
 > Write down angular motion equation(s) below. 👇
+
+
+$C_{\text{l}} = -C_{\text{r}} = \dfrac{\theta \cdot L}{4\pi r}\,i\,\text{CPR}$
+
 
 > [!TIP]
 > You may find the calculation of arc length as illustrated below helpful.
