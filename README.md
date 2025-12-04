@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/1_wnOXgh)
 # Trail Follower
 
 Implement a more precised distance control to follow the trapezoidal trail in the lab.
@@ -19,6 +20,8 @@ You can use following definitions in your equation:
 - Encoder's counts per revolution: $CPR$
 
 > Write down linear motion equation below. 👇
+>
+$C = \frac{d} {2 \pi r} * i * CPR$
 
 > [!TIP]
 > If other quantities than the listed ones are needed.
@@ -39,6 +42,10 @@ You can use following definitions in your equation:
 
 > Write down angular motion equation(s) below. 👇
 
+
+$C_{\text{l}} = -C_{\text{r}} = \dfrac{\theta \cdot L}{4\pi r}\,i\,\text{CPR}$
+
+
 > [!TIP]
 > You may find the calculation of arc length as illustrated below helpful.
 > **Be careful, the symbols used in graph are different from our definitions.**
@@ -47,7 +54,7 @@ You can use following definitions in your equation:
 ### 2. (15%) Wiring
 Please upload your wiring diagram below to illustrate how the motors are controlled and monitored. 👇
 
-![wiring](images/wiring_diagram.jpg)
+![wiring](new-pico-wiring.jpg)
 
 ### 3. (70%) Coding
 
